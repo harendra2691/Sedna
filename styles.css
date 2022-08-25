@@ -190,7 +190,7 @@ button {
     border: solid 1px #e6e9ea;
     background-color: #f7f8fa;
     padding-top: 110px;
-    max-height: 759px;
+    height: 759px;
     overflow: hidden;
 }
 .gadgets{

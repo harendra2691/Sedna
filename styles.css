@@ -55,7 +55,7 @@ button {
 }
 .header__nav > li {
   display: inline-block;
-  margin-right: 19px;
+  margin-right: 20px;
   vertical-align: middle;
 }
 .header__nav > li > a {
@@ -75,7 +75,7 @@ button {
   border-radius: 40px;
   padding: 10px 30px;
 }
-hr {
+ hr {
   border-bottom: solid 1px #ffffff;
   opacity: 0.2;
 }
@@ -111,12 +111,13 @@ hr {
   margin-bottom: 80px;
 }
 .btn {
+  display: inline-block;
   font-size: 13px;
   font-weight: normal;
-  text-align: justify;
   border-radius: 40px;
   min-width: 209px;
   margin-right: 21px;
+  text-transform: uppercase;
 }
 .btn:nth-last-child(1) {
   margin-right: 0px;
@@ -131,12 +132,16 @@ hr {
   border: 2px solid #ff5274;
   padding: 18px 60px;
 }
-.arrow {
-  color: white;
+.down-arrow {
   position: absolute;
   bottom: 5%;
   left: 50%;
   cursor: pointer;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
 }
 .benefit {
   padding: 120px 0;
@@ -150,7 +155,7 @@ hr {
 .benefit li:nth-last-child(1) {
   margin-right: 0px;
 }
-.benefit img {
+.icons {
   /* float: left; */
   display: inline-block;
   vertical-align: top;
@@ -166,15 +171,117 @@ hr {
   display: inline-block;
   margin-left: 15px;
 }
-.content > h5 {
+.heading-sm {
   font-size: 15px;
   font-weight: 600;
   color: #3d4351;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
-.content > p {
+.text-sm {
   font-size: 15px;
   font-weight: 300;
   line-height: 1.67;
   color: rgba(28, 54, 83, 0.7);
+}
+
+.why-sedna{
+  position: relative;
+    border: solid 1px #e6e9ea;
+    background-color: #f7f8fa;
+    padding-top: 110px;
+    max-height: 759px;
+    overflow: hidden;
+}
+.gadgets{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.i-pad{
+  width: 75%;
+  height: 1002px;
+}
+.i-phone{
+  position: absolute;
+  width: 43%;
+  height: 617px;
+  bottom:15%;
+  right: 9%;
+}
+.iphone-screen{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ padding: 10px;
+}
+
+.iphone-screen__text{
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2.7px;
+  color: #acb1b4;
+  margin-bottom: 14px;
+}
+.fa-thin{
+  color: white;
+  padding: 12px;
+  border-radius: 40px;
+  margin-right: 12px;
+  margin-bottom: 13px;
+  background-color: #454d5e;
+}
+.fa-thin:nth-child(3n){
+  margin-right: 0px;
+}
+.why-sedna .container{
+  height: 100%;
+}
+.why-sedna article{
+    float: right;
+}
+
+.title-sm{
+    font-size: 24px;
+  font-weight: normal;
+  color: #3d4351;
+  margin-bottom: 19px;
+}
+
+.why-sedna__text{
+margin-bottom: 58px;
+}
+.why-sedna__hr{
+  border-bottom: solid 1px #e6e9ea;
+  margin: 20px 0;
+}
+
+.design{
+  padding: 115px 0;
+  position: relative;
+  min-height:789px;
+}
+
+.design .container{
+  display: flow-root;
+  height: 100%;
+}
+
+.left-container{
+  float: left;
+  width: 50%;
+}
+
+
+.left-container__text{
+  margin-bottom: 30px;
+}
+.right-container{
+  position: absolute;
+  right: 0;
+  top: 14%;
+  width: 50%;
+  height: 531px;
 }

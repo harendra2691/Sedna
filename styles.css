@@ -115,7 +115,6 @@ hr {
   font-size: 13px;
   font-weight: normal;
   border-radius: 40px;
-  min-width: 209px;
   margin-right: 21px;
   text-transform: uppercase;
 }
@@ -127,7 +126,7 @@ hr {
   background-color: #ff5274;
   padding: 18px 31px;
 }
-.hero__btn_right {
+.border-only-btn {
   color: #ff5274;
   border: 2px solid #ff5274;
   padding: 18px 60px;
@@ -190,7 +189,8 @@ hr {
   border: solid 1px #e6e9ea;
   background-color: #f7f8fa;
   padding-top: 110px;
-  height: 759px;
+  max-height: 759px;
+  height: 100vh;
   overflow: hidden;
 }
 .gadgets {
@@ -243,7 +243,7 @@ hr {
   float: right;
 }
 
-.title-sm {
+.heading-lg {
   font-size: 24px;
   font-weight: normal;
   color: #3d4351;
@@ -261,7 +261,8 @@ hr {
 .design {
   padding: 115px 0;
   position: relative;
-  min-height: 789px;
+  max-height: 789px;
+  height: 100vh;
 }
 
 .design .container {
@@ -284,3 +285,40 @@ hr {
   width: 50%;
   height: 531px;
 }
+
+.customise__head{
+  max-height: 500px;
+  height: 100vh;
+background-color: #454d5e;
+text-align: center;
+padding-top: 95px;
+}
+.customise__head article{
+  /* position: relative;
+  top: 95px; */
+}
+
+.title-sm{
+  font-size: 40px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.customise__head-text{
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #acb1b4;
+  margin-bottom: 45px;
+}
+.customise__head_btn{
+  margin-bottom: 54px;
+  padding: 18px 30px
+}
+.diamond-pic{
+  object-fit: contain;
+}
+

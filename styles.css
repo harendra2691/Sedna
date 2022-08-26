@@ -289,7 +289,7 @@ hr {
 .customise__head{
   max-height: 500px;
   height: 100vh;
-background-color: #454d5e;
+background-color: #353940;
 text-align: center;
 padding-top: 95px;
 }
@@ -321,4 +321,41 @@ padding-top: 95px;
 .diamond-pic{
   object-fit: contain;
 }
+.customise__about{
+padding: 170px 0 100px 0;
+}
+.customise__about-heading{
+margin-bottom: 82px;
+}
+.table-data{
+  width: calc((100% - 180px)/2);
+  float: left;
+}
+.vl {
+  border-left: 1px solid #e6e9ea;
+  height: 178px;
+  position: absolute;
+  left: 50%;
 
+}
+.customise__about_left{
+margin-right: 90px;
+}
+.customise__about_right{
+margin-left: 90px;
+}
+.table{
+  display: flow-root;
+  position: relative;
+}
+.collage{
+  display: flow-root;
+}
+.collage-pic{
+  float: left;
+  width: calc(100%/3);
+  height: 300px;
+}
+fa-magnifying-glass{
+  background-color: none;
+}

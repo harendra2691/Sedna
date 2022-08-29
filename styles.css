@@ -651,6 +651,14 @@ form .btn {
   .customise__about .heading-lg {
     margin-top: 40px;
   }
+  .fa-desktop,
+  .fa-tablet-screen-button,
+  .fa-mobile-screen-button {
+    padding: 5px;
+  }
+  .iphone-screen__text{
+    font-size: 6px;
+  }
   .table-data {
     width: 100%;
     float: none;

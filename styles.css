@@ -84,13 +84,9 @@ hr {
 }
 .hero {
   position: relative;
-  background-image: linear-gradient(
-      rgba(38, 43, 57, 0.9),
-      rgba(38, 43, 57, 0.9)
-    ),
-    url("hero-background.png");
+  background: linear-gradient(rgba(38, 43, 57, 0.9), rgba(38, 43, 57, 0.9)),
+    url("hero-background.png"), no-repeat;
   min-height: 750px;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 .hero article {
@@ -153,6 +149,10 @@ hr {
   width: calc((100% - 30px) / 3);
   display: inline-block;
   margin-right: 10px;
+}
+.benefit li > img {
+  width: 40px;
+  height: 40px;
 }
 .benefit li:nth-last-child(1) {
   margin-right: 0px;
@@ -252,7 +252,6 @@ hr {
 .why-sedna__hr {
   border-bottom: solid 1px #e6e9ea;
   margin: 20px 0;
-  width: 70%;
 }
 
 .design {
@@ -306,6 +305,8 @@ hr {
 .diamond-pic {
   object-fit: contain;
   margin-bottom: -90px;
+  width: 230px;
+  height: 230px;
 }
 .customise__about {
   padding: 14% 0 5% 0;
@@ -314,20 +315,20 @@ hr {
   margin-bottom: 8%;
 }
 .table-data {
-  width: calc((100% - 180px) / 2);
+  width: calc((100% - 19%) / 2);
   float: left;
 }
 .vl {
-  border-left: 1px solid #e6e9ea;
+  float: left;
+  border: 1px solid #e6e9ea;
+  border-width: 0 1px 0 0;
   height: 150px;
-  position: absolute;
-  left: 50%;
 }
 .table-data_left {
-  margin-right: 90px;
+  margin-right: 9%;
 }
 .table-data_right {
-  margin-left: 90px;
+  margin-left: 9%;
 }
 .table {
   display: flow-root;
@@ -498,15 +499,17 @@ form .btn {
 .bottom__left {
   background-color: #3d4351;
   float: left;
+  border-top: 1px solid #4e566c;
 }
 .bottom__left hr {
   margin-bottom: 26px;
 }
 .bottom__nav {
   margin-bottom: 28px;
+  margin-top: 20px;
 }
 .bottom__right {
-  margin-top: 40px;
+  margin-top: 32px;
   float: right;
 }
 .bottom__left .text-sm {
@@ -579,5 +582,105 @@ form .btn {
   }
   .iphone-screen__text {
     font-size: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body,
+  .header {
+    min-width: 459px;
+  }
+  .header__nav_left {
+    margin-left: 0;
+  }
+
+  .header__nav > li {
+    margin-right: 52px;
+  }
+  .hero {
+    min-height: 550px;
+  }
+  .hero article {
+    width: 100%;
+  }
+  .title-lg {
+    font-size: 40px;
+  }
+  .hero__txt {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+  .heading-lg {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .title-sm {
+    font-size: 35px;
+  }
+  .benefit li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .benefit li:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+  .why-sedna__text {
+    margin-bottom: 20px;
+  }
+  .gadgets {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+    max-height: 384px;
+    overflow: hidden;
+  }
+  .i-phone {
+    bottom: -38%;
+  }
+  .why-sedna article {
+    padding-top: 40px;
+  }
+  .left-container {
+    width: 100%;
+    padding-left: 4%;
+  }
+  .right-container {
+    width: 65%;
+  }
+  .diamond-pic {
+    width: 150px;
+    height: 150px;
+  }
+  .customise__about .heading-lg {
+    margin-top: 40px;
+  }
+  .table-data {
+    width: 100%;
+    float: none;
+  }
+  .table-data_left {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .table-data_right {
+    margin-left: 0;
+  }
+  .vl {
+    border: 0;
+  }
+  .collage {
+    margin-bottom: 35px;
+  }
+  .collage-pic {
+    float: none;
+    width: 100%;
+  }
+  .collage-pic > img {
+    margin-bottom: 25px;
+  }
+  .bottom__left,
+  .bottom__right {
+    float: none;
   }
 }

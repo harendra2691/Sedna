@@ -26,7 +26,6 @@ div:last-child > input {
 }
 
 .wrapper {
-  /* padding: 43px 43px; */
   padding: 3% 3%;
   position: relative;
 }
@@ -128,13 +127,11 @@ hr {
 .btn_left {
   color: white;
   background-color: #ff5274;
-  /* padding: 18px 31px; */
   padding: 2.2% 4%;
 }
 .border-only-btn {
   color: #ff5274;
   border: 2px solid #ff5274;
-  /* padding: 18px 60px; */
   padding: 2.2% 7.5%;
 }
 .down-arrow {
@@ -208,9 +205,7 @@ hr {
   bottom: 15%;
   right: 9%;
 }
-/* .i-pad>img, .i-phone>img{
-  object-fit: contain;
-} */
+
 .iphone-screen {
   position: absolute;
   top: 38%;
@@ -261,16 +256,11 @@ hr {
 }
 
 .design {
-  /* padding: 115px 0; */
   padding: 8% 0;
   display: flow-root;
-  /* position: relative; */
-  /* max-height: 789px;
-  height: 100vh; */
 }
 
 .design .container {
-  /* height: 100%; */
   display: flow-root;
 }
 
@@ -285,11 +275,7 @@ hr {
 }
 .right-container {
   float: right;
-  /* position: absolute;
-  right: 0;
-  top: 14%; */
   width: 50%;
-  /* height: 531px; */
 }
 
 .customise__head {
@@ -316,7 +302,6 @@ hr {
 .customise__head article > .border-only-btn {
   margin-bottom: 54px;
   padding: 2.2% 4%;
-  /* padding: 18px 30px; */
 }
 .diamond-pic {
   object-fit: contain;
@@ -504,21 +489,15 @@ form .btn {
 }
 
 .bottom {
-  /* min-height: 426px; */
   background-color: #3d4351;
-  /* padding: 130px 0; */
   padding: 9% 0;
 }
 .bottom > .container {
   display: flow-root;
 }
 .bottom__left {
-  /* min-height: 426px;
-  padding: 0 88px 0 280px;
-  width: 65%; */
   background-color: #3d4351;
   float: left;
-  /* margin: 120px 0; */
 }
 .bottom__left hr {
   margin-bottom: 26px;
@@ -527,9 +506,6 @@ form .btn {
   margin-bottom: 28px;
 }
 .bottom__right {
-  /* width: 35%;
-  min-height: 426px;
-  background-color: #383c4a; */
   margin-top: 40px;
   float: right;
 }

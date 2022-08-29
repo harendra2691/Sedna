@@ -680,6 +680,13 @@ form .btn {
     float: none;
     width: 100%;
   }
+  .collage-pic{
+    margin-bottom: 20px;
+  }
+  .collage-pic:nth-last-child(1){
+    margin-bottom: 0;
+  }
+
   .collage-pic > img {
     margin-bottom: 25px;
   }

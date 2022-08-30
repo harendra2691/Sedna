@@ -120,15 +120,17 @@ hr {
 .btn:nth-last-child(1) {
   margin-right: 0px;
 }
-.btn_left {
+.btn_left,
+.form-signup-btn {
   color: white;
   background-color: #ff5274;
-  padding: 2.2% 4%;
+  padding: 18px;
+  border: none;
 }
 .border-only-btn {
   color: #ff5274;
   border: 2px solid #ff5274;
-  padding: 2.2% 7.5%;
+  padding: 18px 40px;
 }
 .down-arrow {
   position: absolute;
@@ -365,15 +367,20 @@ hr {
   padding: 1% 4%;
 }
 
-.join-now__top {
+.carousel {
   position: relative;
   background-image: url("background.png");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   padding: 10% 0 20% 0;
+  background-position: center center;
 }
-.join-now__top img {
+.carousel article {
+  max-width: 1005px;
+  padding: 0 20px;
+}
+.carousel img {
   width: 80px;
   height: 80px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -382,11 +389,11 @@ hr {
   border-radius: 50%;
   margin-bottom: 28px;
 }
-.join-now__top h2 {
+.carousel h2 {
   font-style: italic;
   margin-bottom: 26px;
 }
-.join-now__top .text-sm {
+.carousel .text-sm {
   color: #acb1b4;
   letter-spacing: 2px;
 }
@@ -434,7 +441,7 @@ hr {
 .form .text-sm {
   margin-bottom: 55px;
 }
-form {
+.signup-form {
   max-width: 400px;
   margin: 0 auto;
 }
@@ -442,34 +449,34 @@ form > div {
   border-radius: 5px;
   border: solid 1px #e6e9ea;
   text-align: left;
-  padding: 2%;
   margin-bottom: 10px;
 }
 form > div:nth-last-child(1) {
   margin-bottom: 0;
 }
+.form-signup-btn {
+  width: 100%;
+}
 .input-field {
+  width: 88%;
+  padding: 18px;
   border: none;
   font-size: 14px;
   font-weight: normal;
   color: #bcc1c3;
   outline: none;
 }
-.br {
-  color: #e6e9ea;
-}
+
 .fa-envelope,
 .fa-lock {
+  border-right: 1px solid #e6e9ea;
   padding: 10px;
   color: #ff5274;
   vertical-align: middle;
 }
-form div:last-child,
-div:last-child > input {
+form div:last-child {
   background-color: #ff5274;
   text-align: center;
-  border: none;
-  color: #ffffff;
 }
 form .btn {
   color: #ffffff;
@@ -542,7 +549,7 @@ form .btn {
   background-color: #3b5898;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .btn {
     font-size: 9px;
   }
@@ -553,10 +560,10 @@ form .btn {
     font-size: 35px;
   }
   .title-sm {
-    font-size: 25px;
+    font-size: 30px;
   }
   .text-sm {
-    font-size: 10px;
+    font-size: 13px;
   }
   .heading-lg {
     font-size: 18px;
@@ -573,7 +580,7 @@ form .btn {
     margin-right: 10px;
   }
   .customise__head-text {
-    font-size: 11px;
+    font-size: 12px;
   }
   .fa-desktop,
   .fa-tablet-screen-button,
@@ -585,12 +592,12 @@ form .btn {
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
   .header__nav_left {
     margin-left: 0;
     margin-top: 30px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    text-align: center;
   }
 
   .hero {
@@ -598,6 +605,19 @@ form .btn {
   }
   .hero article {
     width: 100%;
+  }
+  .benefit,
+  .design,
+  .form,
+  .bottom {
+    padding: 40px 0;
+  }
+  .why-sedna,
+  .customise__head {
+    padding-top: 40px;
+  }
+  .customise__collage {
+    padding-bottom: 40px;
   }
   .title-lg {
     font-size: 40px;
@@ -611,7 +631,7 @@ form .btn {
     margin-bottom: 10px;
   }
   .title-sm {
-    font-size: 35px;
+    font-size: 25px;
   }
   .benefit li {
     width: 100%;
@@ -656,7 +676,7 @@ form .btn {
   .fa-mobile-screen-button {
     padding: 5px;
   }
-  .iphone-screen__text{
+  .iphone-screen__text {
     font-size: 6px;
   }
   .table-data {
@@ -680,10 +700,10 @@ form .btn {
     float: none;
     width: 100%;
   }
-  .collage-pic{
+  .collage-pic {
     margin-bottom: 20px;
   }
-  .collage-pic:nth-last-child(1){
+  .collage-pic:nth-last-child(1) {
     margin-bottom: 0;
   }
 

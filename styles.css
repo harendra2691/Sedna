@@ -322,8 +322,7 @@ hr {
 }
 .vl {
   float: left;
-  border: 1px solid #e6e9ea;
-  border-width: 0 1px 0 0;
+  border-left: 1px solid #e6e9ea;
   height: 150px;
 }
 .table-data_left {
@@ -606,19 +605,19 @@ form .btn {
   .hero article {
     width: 100%;
   }
+  .why-sedna,
+  .customise__collage,
   .benefit,
   .design,
   .form,
   .bottom {
     padding: 40px 0;
   }
-  .why-sedna,
+
   .customise__head {
     padding-top: 40px;
   }
-  .customise__collage {
-    padding-bottom: 40px;
-  }
+
   .title-lg {
     font-size: 40px;
   }

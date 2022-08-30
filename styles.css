@@ -604,7 +604,9 @@ form .btn {
     min-height: 550px;
   }
   .hero article {
+    top: 60%;
     width: 100%;
+    padding: 0 10px;
   }
   .why-sedna,
   .customise__collage,
@@ -620,10 +622,10 @@ form .btn {
   }
 
   .title-lg {
-    font-size: 40px;
+    font-size: 37px;
   }
   .hero__txt {
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 35px;
   }
   .heading-lg {

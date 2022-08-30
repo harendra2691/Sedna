@@ -263,12 +263,11 @@ hr {
 }
 
 .design .container {
-  display: flow-root;
+  float: left;
+  width: 50%;
 }
 
 .left-container {
-  float: left;
-  width: 50%;
   padding-left: 17%;
 }
 
@@ -659,8 +658,10 @@ form .btn {
   .why-sedna article {
     padding-top: 40px;
   }
-  .left-container {
+  .design .container {
     width: 100%;
+  }
+  .left-container {
     padding-left: 4%;
   }
   .right-container {

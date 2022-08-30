@@ -64,7 +64,8 @@ div:last-child > input {
 .header__nav > li > a {
   position: relative;
 }
-.header__nav > li:nth-last-child(1) {
+.header__nav > li:nth-last-child(1),
+.bottom__nav > li:nth-last-child(1) {
   margin-right: 0px;
 }
 .nav-link {

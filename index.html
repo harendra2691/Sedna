@@ -9,6 +9,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      function topFunction() {
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
     <title>Sedna</title>
   </head>
   <body>
@@ -354,6 +359,7 @@
         <div class="container">
           <div class="arrow-box">
             <button
+              onclick="topFunction()"
               class="fa fa-thin fa-chevron-up fa-xl"
             ></button>
           </div>

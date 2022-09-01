@@ -630,6 +630,9 @@ form .btn {
   .design {
     padding: 8rem 0;
   }
+  .left-container > .border-only-btn {
+    padding: 16px 20px;
+  }
   .diamond-pic {
     width: 180px;
     height: 180px;

@@ -326,10 +326,12 @@ hr {
 }
 td {
   border-right: 1px solid #e6e9ea;
-  text-align: justify;
 }
 td:last-child {
   border-right: none;
+}
+td > .text-sm {
+  text-align: justify;
 }
 
 .left-cell {

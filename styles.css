@@ -133,11 +133,15 @@ hr {
   padding: 1.8rem;
   border: none;
 }
+.hero .border-only-btn {
+  padding: 1.8rem 4rem;
+}
 .border-only-btn {
   color: #ff5274;
   border: 2px solid #ff5274;
-  padding: 1.8rem 4rem;
+  padding: 2.2% 4%;
 }
+
 .down-arrow {
   position: absolute;
   bottom: 5%;
@@ -583,12 +587,6 @@ form .btn {
 }
 
 @media only screen and (max-width: 1023px) {
-  /* .btn {
-    font-size: 9px;
-  } */
-  /* .hero__txt {
-    font-size: 11px;
-  } */
   .bottom__nav > li {
     display: block;
     margin-right: 0;
@@ -621,7 +619,7 @@ form .btn {
   }
   .header__nav > li,
   .bottom > nav {
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
   .header__nav_left {
     margin-left: 4rem;
@@ -630,9 +628,7 @@ form .btn {
   .design {
     padding: 8rem 0;
   }
-  .left-container > .border-only-btn {
-    padding: 16px 20px;
-  }
+
   .diamond-pic {
     width: 180px;
     height: 180px;
@@ -674,12 +670,26 @@ form .btn {
   }
 
   .hero {
-    min-height: 550px;
+    min-height: 600px;
   }
   .hero article {
     top: 60%;
     width: 100%;
     padding: 0 1rem;
+  }
+  td {
+    display: inline-block;
+    border: none;
+    margin-bottom: 40px;
+  }
+  td:last-child {
+    margin-bottom: 0;
+  }
+  .left-cell {
+    padding-right: 0;
+  }
+  .right-cell {
+    padding-left: 0;
   }
   .why-sedna,
   .benefit,
@@ -713,6 +723,14 @@ form .btn {
   .text-sm {
     font-size: 1.2rem;
   }
+  .hero > article > .btn_left {
+    margin-bottom: 3rem;
+  }
+  .hero > article > .border-only-btn {
+    display: block;
+    max-width: 170px;
+    margin: 0 auto;
+  }
   .benefit li {
     width: 100%;
     margin-right: 0;
@@ -730,6 +748,9 @@ form .btn {
     margin-bottom: 0;
     max-height: 384px;
     overflow: hidden;
+  }
+  .header__nav > li {
+    margin-right: 2rem;
   }
   .i-phone {
     bottom: -38%;
@@ -769,10 +790,9 @@ form .btn {
   .collage-pic {
     float: none;
     width: 100%;
+    margin-bottom: 4rem;
   }
-  .collage-pic {
-    margin-bottom: 2rem;
-  }
+
   .collage-pic:nth-last-child(1) {
     margin-bottom: 0;
   }

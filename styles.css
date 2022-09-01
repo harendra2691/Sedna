@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  font-size: 62.5%;
+}
 body {
   font-family: "OpenSans", sans-serif;
 }
@@ -44,7 +47,7 @@ div:last-child > input {
 }
 .header__nav,
 .bottom__nav {
-  font-size: 13px;
+  font-size: 1.4rem;
   color: #ffffff;
   display: inline-block;
   line-height: 40px;
@@ -96,23 +99,25 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 90%;
 }
 .title-lg {
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: normal;
   color: #ffffff;
   margin-bottom: 15px;
 }
 .hero__txt {
-  font-size: 19px;
+  font-size: 2rem;
   font-weight: 300;
   text-align: center;
   color: #ffffff;
   margin-bottom: 80px;
 }
+
 .btn {
   display: inline-block;
-  font-size: 13px;
+  font-size: 1.4rem;
   font-weight: normal;
   border-radius: 40px;
   margin-right: 21px;
@@ -143,7 +148,7 @@ hr {
   transform: rotate(45deg);
 }
 .benefit {
-  padding: 8% 0;
+  padding: 12rem 0;
 }
 
 .benefit ul {
@@ -175,14 +180,14 @@ hr {
   margin-left: 15px;
 }
 .heading-sm {
-  font-size: 15px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #3d4351;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 .text-sm {
-  font-size: 15px;
+  font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.67;
   color: rgba(28, 54, 83, 0.7);
@@ -192,7 +197,7 @@ hr {
   position: relative;
   border: solid 1px #e6e9ea;
   background-color: #f7f8fa;
-  padding-top: 7%;
+  padding-top: 11.8rem;
   overflow: hidden;
 }
 .gadgets {
@@ -217,11 +222,12 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
+  text-align: center;
 }
 
 .iphone-screen__text {
   white-space: nowrap;
-  font-size: 11px;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 2.7px;
   color: #acb1b4;
@@ -245,7 +251,7 @@ hr {
 }
 
 .heading-lg {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: normal;
   color: #3d4351;
   margin-bottom: 19px;
@@ -260,7 +266,7 @@ hr {
 }
 
 .design {
-  padding: 8% 0;
+  padding: 11.8rem 0;
   display: flow-root;
 }
 
@@ -284,16 +290,16 @@ hr {
 .customise__head {
   background-color: #353940;
   text-align: center;
-  padding-top: 6%;
+  padding-top: 9.8rem;
 }
 .title-sm {
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 300;
   color: #ffffff;
   margin-bottom: 20px;
 }
 .customise__head-text {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -313,33 +319,29 @@ hr {
   height: 230px;
 }
 .customise__about {
-  padding: 14% 0 5% 0;
+  padding: 17.8rem 0 10.8rem 0;
 }
 .customise__about .heading-lg {
   margin-bottom: 8%;
 }
-.table-data {
-  width: calc((100% - 19%) / 2);
-  float: left;
+td {
+  border-right: 1px solid #e6e9ea;
+  text-align: justify;
 }
-.vl {
-  float: left;
-  border-left: 1px solid #e6e9ea;
-  height: 150px;
+td:last-child {
+  border-right: none;
 }
-.table-data_left {
-  margin-right: 9%;
+
+.left-cell {
+  padding-right: 6%;
 }
-.table-data_right {
-  margin-left: 9%;
+.right-cell {
+  padding-left: 6%;
 }
-.table {
-  display: flow-root;
-  position: relative;
-}
+
 .customise__collage {
   text-align: center;
-  padding-bottom: 8%;
+  padding-bottom: 12rem;
 }
 .collage {
   display: flow-root;
@@ -355,7 +357,7 @@ hr {
   margin-bottom: 35px;
 }
 .collage-pic > h6 {
-  font-size: 11px;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #acb1b4;
   margin-bottom: 10px;
@@ -374,7 +376,7 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 10% 0 20% 0;
+  padding: 13.6rem 0 15.4rem 0;
   background-position: center center;
 }
 .carousel article {
@@ -434,7 +436,7 @@ hr {
   line-height: 0;
 }
 .form {
-  padding: 8% 0;
+  padding: 12rem 0;
   text-align: center;
 }
 .form > .heading-lg {
@@ -458,10 +460,11 @@ form > div:nth-last-child(1) {
 }
 .form-signup-btn {
   width: 100%;
+  font-size: 1.4rem;
 }
 .input-field {
   width: 88%;
-  padding: 18px;
+  padding: 1.8rem;
   border: none;
   font-size: 14px;
   font-weight: normal;
@@ -499,14 +502,20 @@ form .btn {
 }
 
 .bottom {
-  background-color: #3d4351;
-  padding: 9% 0;
+  background: linear-gradient(
+    to right,
+    #3d4351 0%,
+    #3d4351 60%,
+    #373d4a 60%,
+    #373d4a 100%
+  );
+  padding: 11.8rem 0 16rem 0;
 }
+
 .bottom > .container {
   display: flow-root;
 }
 .bottom__left {
-  background-color: #3d4351;
   float: left;
   border-top: 1px solid #4e566c;
 }
@@ -572,52 +581,89 @@ form .btn {
 }
 
 @media only screen and (max-width: 1023px) {
-  .btn {
+  /* .btn {
     font-size: 9px;
-  }
-  .hero__txt {
+  } */
+  /* .hero__txt {
     font-size: 11px;
+  } */
+  .bottom__nav > li {
+    display: block;
+    margin-right: 0;
   }
+  .hero article {
+    width: 90%;
+  }
+
   .title-lg {
-    font-size: 35px;
+    font-size: 5.2rem;
   }
   .title-sm {
-    font-size: 30px;
+    font-size: 3.4rem;
   }
   .text-sm {
-    font-size: 13px;
+    font-size: 1.4rem;
   }
   .heading-lg {
-    font-size: 18px;
+    font-size: 2rem;
   }
   .heading-sm {
-    font-size: 11px;
+    font-size: 1.2rem;
+  }
+  .benefit {
+    padding: 8rem 0;
   }
   .header__nav,
   .bottom__nav {
-    font-size: 10px;
+    font-size: 1.2rem;
   }
   .header__nav > li,
   .bottom > nav {
-    margin-right: 10px;
+    margin-right: 1rem;
   }
-  .customise__head-text {
-    font-size: 12px;
+  .header__nav_left {
+    margin-left: 4rem;
+  }
+
+  .design {
+    padding: 8rem 0;
+  }
+  .diamond-pic {
+    width: 180px;
+    height: 180px;
+  }
+  .customise__about {
+    padding: 14rem 0 8rem 0;
+  }
+  .customise__collage {
+    padding-bottom: 8rem;
+  }
+  .form {
+    padding: 8rem 0;
   }
   .fa-desktop,
   .fa-tablet-screen-button,
   .fa-mobile-screen-button {
-    padding: 4px;
+    padding: 0.4rem;
+  }
+  .i-phone {
+    bottom: 0;
   }
   .iphone-screen__text {
-    font-size: 5px;
+    font-size: 0.8rem;
+  }
+  .left-container {
+    padding-left: 0;
+  }
+  .bottom {
+    padding: 8rem 0 12rem 0;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .header__nav_left {
     margin-left: 0;
-    margin-top: 30px;
+    margin-top: 3rem;
     width: 100%;
     text-align: center;
   }
@@ -628,45 +674,50 @@ form .btn {
   .hero article {
     top: 60%;
     width: 100%;
-    padding: 0 10px;
+    padding: 0 1rem;
   }
   .why-sedna,
-  .customise__collage,
   .benefit,
   .design,
   .form,
   .bottom {
-    padding: 40px 0;
+    padding: 4rem 0;
   }
-
+  .btn {
+    font-size: 1.2rem;
+    margin-right: 0;
+  }
   .customise__head {
-    padding-top: 40px;
+    padding-top: 4rem;
   }
 
   .title-lg {
-    font-size: 37px;
+    font-size: 3.8rem;
   }
   .hero__txt {
-    font-size: 14px;
-    margin-bottom: 35px;
+    font-size: 1.4rem;
+    margin-bottom: 3.6rem;
   }
   .heading-lg {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
   .title-sm {
-    font-size: 25px;
+    font-size: 2.5rem;
+  }
+  .text-sm {
+    font-size: 1.2rem;
   }
   .benefit li {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
   }
   .benefit li:nth-last-child(1) {
     margin-bottom: 0;
   }
   .why-sedna__text {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
   .gadgets {
     width: 100%;
@@ -679,14 +730,12 @@ form .btn {
     bottom: -38%;
   }
   .why-sedna article {
-    padding-top: 40px;
+    padding-top: 4rem;
   }
   .design .container {
     width: 100%;
   }
-  .left-container {
-    padding-left: 4%;
-  }
+
   .right-container {
     width: 65%;
   }
@@ -694,40 +743,30 @@ form .btn {
     width: 150px;
     height: 150px;
   }
-  .customise__about .heading-lg {
-    margin-top: 40px;
-  }
+
   .fa-desktop,
   .fa-tablet-screen-button,
   .fa-mobile-screen-button {
-    padding: 5px;
+    padding: 0.5rem;
   }
   .iphone-screen__text {
-    font-size: 6px;
+    font-size: 0.6rem;
   }
-  .table-data {
-    width: 100%;
-    float: none;
+  .customise__about {
+    padding: 12rem 0 4rem 0;
   }
-  .table-data_left {
-    margin-right: 0;
-    margin-bottom: 30px;
-  }
-  .table-data_right {
-    margin-left: 0;
-  }
-  .vl {
-    border: 0;
+  .customise__collage {
+    padding-bottom: 8rem;
   }
   .collage {
-    margin-bottom: 35px;
+    margin-bottom: 3.6rem;
   }
   .collage-pic {
     float: none;
     width: 100%;
   }
   .collage-pic {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
   .collage-pic:nth-last-child(1) {
     margin-bottom: 0;
@@ -739,5 +778,14 @@ form .btn {
   .bottom__left,
   .bottom__right {
     float: none;
+  }
+  .bottom {
+    background: linear-gradient(
+      to top,
+      #3d4351 0%,
+      #3d4351 40%,
+      #373d4a 40%,
+      #373d4a 100%
+    );
   }
 }

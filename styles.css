@@ -274,15 +274,6 @@ hr {
   display: flow-root;
 }
 
-.design .container {
-  float: left;
-  width: 50%;
-}
-
-.left-container {
-  padding-left: 17%;
-}
-
 .left-container > .text-sm {
   margin-bottom: 3rem;
 }
